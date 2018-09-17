@@ -25,6 +25,8 @@ optional arguments:
 The folder SP-files contains programs which run in Sonic Pi version 3.0.1 on a separate computer.
 Tested on Mac and Pi3
 testerCube.rb and testerSound.rb run together in separate Sonic Pi buffers. (Run testerSound first, then testerCube)
+Similarly ragtimeCube.rb and ragtimeMusic.rb run together in separate Sonic Pi buffers. (Run ragtimeMusic.rb first
+then ragtimeCube.rb which cues the music to start).
 
 CubeWorkout has separate Pi and Mac versions (The Mac version is too long to run in a single buffer,
 so is split into two parts which run consequetively.
