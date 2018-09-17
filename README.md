@@ -1,7 +1,7 @@
-# SonicPi-4tronixBitCube
-Code to allow Sonic Pi to drive a 4tronix bitcube using a pizero W
+# SonicPi-4tronixCube:Bit
+Code to allow Sonic Pi to drive a 4tronix Cube:Bit using a Pizero W
 
-To use this you need a 4tronix bitcube with a raspberry pizero W connected to the base board as a driver.
+To use this you need a 4tronix bitcube with a Raspberry Pizero W connected to the base board as a driver.
 The pizero should have the latest Raspbian install, and in addition the following python libraries:
 ```
 sudo pip3 install rpi-ws281x
