@@ -1,11 +1,12 @@
 #Sonic Pi cube-bit workout by Robin Newman, September 2018 MAC VERSION PART 1
 #SET IP ADDRESS OF CUBE:BIT PIZERO BELOW instead of pp.qq.rr.ss
 #SET PATH FOR SECOND PART IN LAST LINE OF PROGRAM
+#ALSO SET PATH FOR setubCube.rb in line 9
 
 set :ip, "pp.qq.rr.ss" #ip of cube-bit pizero store for use in part 2
 set :tip, "127.0.0.1" #ip of Touch OSC (not used here)
 use_osc get(:ip),8000 
-run_file "~/bitcube/setupCube.rb" #some setup functions
+run_file "/set/path/to/setupCube.rb" #some setup functions. SETUP THE PATH
 sync :finishedSetupCube
 set :brMax,110 #set max brihtness (limited to 110 max)
 sleep 1
