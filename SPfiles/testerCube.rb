@@ -1,4 +1,4 @@
-#Tester Sonic Pi program to try out 4tronix bitcube by Robin Newman, September 2018
+#Tester Sonic Pi program to try out 4tronix Cube:Bit by Robin Newman, September 2018
 #first run testerSound.rb in a separate Sonic Pi buffer.(it will await a cue from this program)
 #then run this program, which drives the cube via  messages to the osc-cube3.py script
 #NB SETUP IP ADDRESS BELOW FIRST
