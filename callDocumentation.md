@@ -1,4 +1,4 @@
-OSC calls for osc-cube3.py. Requires ip of cubebit pizero and ip of sp computer.
+OSC calls for osc-cube3.py. Requires ip of Cube:Bit Pizero and ip of Sonic Pi computer.
 start with
 ```
  sudo python3 -c -ip xx.xx.xx.xx -sp xx.xx.xx.xx
