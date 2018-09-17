@@ -5,7 +5,7 @@ To use this you need a 4tronix bitcube with a raspberry pizero W connected to th
 The pizero should have the latest Raspbian install, and in addition the following python libraries:
 ```
 sudo pip3 install rpi-ws281x
-sudo pip3 install python-osccallDocumentation.tx
+sudo pip3 install python-osc
 ```
 In addition, the file `osc-cube3.py` should be copied to a convenient location on the pizero.
 This file is used to communicate with the pizero gpiopins and also with Sonic Pi (via OSC messages)
