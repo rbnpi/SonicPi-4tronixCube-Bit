@@ -20,5 +20,5 @@ optional arguments:
   -sp SP, --sp SP  The ip Sonic Pi is on
   -pr, --pr        print messages on terminal screen
   ```
-  The OSC messages the script responds to are shown in the file callDocumentation.txt
+  The OSC messages the script responds to are shown in the file callDocumentation.md
   
