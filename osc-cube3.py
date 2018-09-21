@@ -121,19 +121,19 @@ def setPlane(plane, axis, color,flash=0,l=cubeSide,d=cubeSide,rev=0):
                 y2=cubeSide-1-y if rev==1 else y
                 for z in range(d):
                     if prflag: print("axis x,y,z",axis,pl,y2,z)
-                    strip.setPixelColor(pMap(pl,y2,z,cubeSide), color)
+                    strip.setPixelColor(pMap(pl,y2,z,cubeSide), 0)
         elif (axis[:2] == "xz"):
             for x in range(l):
                 x2=cubeSide-1-x if rev==1 else x
                 for z in range(d):
                     if prflag: print("axis x,y,z",axis,x2,pl,z)
-                    strip.setPixelColor(pMap(x2,pl,z,cubeSide), color)
+                    strip.setPixelColor(pMap(x2,pl,z,cubeSide), 0)
         elif (axis[:2] == "xy"):
             for x in range(l):#(l-1,-1,-1):
                 x2=cubeSide-1-x if rev==1 else x
                 for y in range(d):
                     if prflag: print("axis x y z",axis,x2,y,pl)
-                    strip.setPixelColor(pMap(x2,y,pl,cubeSide), color)
+                    strip.setPixelColor(pMap(x2,y,pl,cubeSide), 0)
         strip.show()
 
 #colour all leds. flash if param > 0
